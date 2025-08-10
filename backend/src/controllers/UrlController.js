@@ -51,9 +51,9 @@ const RedirectURL = AsyncHandler(async (req, res) => {
     console.log(shortcode);
 
     const UrlData = await URLSchema.findOne({ shortURL: shortcode })
-    if (!UrlData) {
-        throw new ApiError(404, "Short URL not found");
-    }
+    // if (!UrlData) {
+    //     throw new ApiError(404, "Short URL not found");
+    // }
     UrlData.clicks += 1;
     await UrlData.save();
     return res.redirect(UrlData.orginalURL);
