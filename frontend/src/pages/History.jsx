@@ -61,12 +61,12 @@ function History() {
                   </td>
                   <td className="py-2 px-3 text-blue-600">
                     <a
-                      href={`http://localhost:8000/${url.shortURL}`}
+                      href={`https://linkly-a83f.onrender.com/${url.shortURL}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="hover:underline"
                     >
-                      {`http://localhost:8000/${url.shortURL}`}
+                      {`https://linkly-a83f.onrender.com/${url.shortURL}`}
                     </a>
                   </td>
                   <td className="py-2 px-3">{url.clicks}</td>
