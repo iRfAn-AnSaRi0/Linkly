@@ -67,7 +67,9 @@ Edit
 ```bash
 git clone https://github.com/your-username/shortify.git
 cd shortify
+
 2️⃣ Install dependencies
+
 Backend
 
 bash
@@ -82,7 +84,9 @@ Copy
 Edit
 cd frontend
 npm install
+
 3️⃣ Environment variables
+
 Create a .env file in the backend folder and add:
 
 ini
@@ -106,7 +110,9 @@ Copy
 Edit
 cd frontend
 npm start
+
 📡 API Endpoints
+
 Method	Endpoint	Description
 POST	/api/shorten	Shortens a given URL
 GET	/:code	Redirects to original URL
